@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Registro</h1>
+    <form id="form">
+
+        <div class="form-input-container">
+            <label for="form-input-name">Nombre y Apellido:</label>
+            <input type="text" class="form-input" autocomplete="off" id="form-input-name" placeholder="Simon Bolivar">
+            <p class="form-info">
+                Solo puede colocar un nombre y un apellido. <br>
+                Tanto el nombre como el apellido tienen que comenzar con una letra mayuscula. <br>
+                No puede colocar numeros ni caracteres especiales.
+            </p>
+        </div>
+         
+        <div class="form-input-container">
+            <label for="form-input-number">Numero:</label>
+            <input type="text" class="form-input" autocomplete="off" id="form-input-number" placeholder="04125554848">
+            <p class="form-info">Tiene que ser un numero venezolano valido</p>
+        </div>
+
+        <button id="form-btn" disabled>crear</button>
+
+    </form>
+      <div class="ul-list">
+          <ul id="list">
+          </ul>
+      </div>
+
+    <script src="eventos.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+background: linear-gradient(to right, #2c3e50, #bdc3c7);
+
+}
+
+ /* #form{
+    
+    justify-content: center;  
+    
+ } */
+ul{
+    list-style: none;
+}
+#form-btn {
+    margin-left: 8rem;
+    width: 5rem;
+}
+
+#form-btn:hover {
+    background-color: green;
+    color: white;
+}
+
+.ul-list{
+    width: 20rem;
+    height: 10rem;
+    overflow-y: scroll ;
+    word-break: break-all;
+}
+
+.delete-btn:hover {
+    background-color: red;
+    color: white;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    width: 50vh;
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    background: white;
+    
+}
+input:focus {
+    top: -14px;
+    font-size: 14.5px;
+    color: #2196f3;
+
+}
+
+.form-input {
+    margin-bottom: 1rem;
+}
+
+.form-input-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-input:focus {
+    outline: none;
+    border: 2px solid blue;
+}
+
+.form-info {
+    display: none;
+
+}
+
+.delete-btn {
+    width: 2rem;
+    height: 2rem;
+}
+
+.delete-btn:focus {
+    background-color: red;
+    color: white;
+
+}
+
+.edit-btn {
+    width: 2rem;
+    height: 2rem;
+}
+
+.edit-btn:focus {
+    background: black;
+    color: white;
+}
+
+.show {
+    display: block;
+    /* None? idk */
+}
+
+.correct:focus, .correct {
+    border: 2px solid green;
+}
+
+.invalid:focus, .invalid {
+    border: 2px solid red;
+}
+
+@media (min-width: 768px) {
+    h1{
+        margin-left: 30rem;
+    }
+    .form-input-container{
+        display: flex;
+        
+    }
+    .form-input{
+        border-radius: 10%;
+        width: 40%;
+    }
+    .form-input-container {
+        margin-left:  31rem;
+    }
+    #form-btn{
+        margin: 0 40rem;
+    }
+    .ul-list{
+        width: 80rem;
+        height: 25rem;
+        overflow-y: hidden ;
+    }
+}
